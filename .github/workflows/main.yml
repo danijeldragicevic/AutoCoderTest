@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: AutoCoder Composite Action
-        uses: danijeldragicevic/AutoCoder@v2
+        uses: danijeldragicevic/AutoCoder@v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
